@@ -1,0 +1,3 @@
+- name: "Install libarchive package"
+  ansible.builtin.include_tasks: install/main.yml
+

@@ -1,0 +1,7 @@
+- name: "Install the 'libarchive-tools' package"
+  ansible.builtin.package:
+    name: libarchive-tools
+    state: present
+  become: true
+  become_user: root
+

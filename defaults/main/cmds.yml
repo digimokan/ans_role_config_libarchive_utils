@@ -1,0 +1,6 @@
+# bsdtar cmd to list the contents of an archive to stdout
+bsdtar_list_archive_contents_cmd: 'bsdtar --list --file'
+
+# bsdtar cmd to extract the contents of an archive to the current directory
+bsdtar_extract_archive_to_current_dir_cmd: 'bsdtar --extract --file'
+
