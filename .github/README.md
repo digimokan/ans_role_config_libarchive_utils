@@ -58,7 +58,7 @@ Install and configure libarchive utilities.
        - name: "Install and configure libarchive utilities"
          ansible.builtin.include_role:
            name: ans_role_config_libarchive_utils
-           public: yes
+           public: true
    ```
 
 ## Role Options
